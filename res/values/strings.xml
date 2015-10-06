@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Persija</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY</string>
+    <string name="title">Title goes here!</string>
+    <string name="date">Date goes here!</string>
+    <string name="vs">VS</string>
+    <string name="nameTeamFirst">PERSIJA FC</string>
+    <string name="nameTeamSecond">Arema</string>
+    <string name="nextmatch">next match : </string>
+    <string name="today">Today</string>
+    <string name="next">Next</string>
+    <string name="last">Last</string>
+    <string name="table">Table</string>
+    <string name="hide">Hide</string>
+    <string name="time">23:00</string>
+    <string name="place">At : Gelora Bung Karno</string>
+    <string name="versionnumber">Version 1.0.0</string>
+	<string name="official">Official Persija FC 2013 All Right Reserved</string>
+	<string name="kres">#</string>
+	<string name="team">Team</string>
+	<string name="p">P</string>
+	<string name="w">W</string>
+	<string name="d">D</string>
+	<string name="l">L</string>
+	<string name="gd">GD</string>
+	<string name="pts">Pts</string>
+</resources>

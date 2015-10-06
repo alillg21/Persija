@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/feed_list.xml" />
+        <ignore path="res/layout/feed_list2.xml" />
+        <ignore path="res/layout/guipageone.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/feed_list.xml" />
+        <ignore path="res/layout/feed_list2.xml" />
+    </issue>
+    <issue id="SmallSp">
+        <ignore path="res/layout/guipageone.xml" />
+        <ignore path="res/layout/guipageone.xml" />
+    </issue>
+</lint>

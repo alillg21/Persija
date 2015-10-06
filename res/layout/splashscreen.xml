@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff8e01"
+    android:orientation="horizontal"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+    
+    <RelativeLayout
+       android:id="@+id/color_controls"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:orientation="vertical"
+       tools:ignore="UselessParent" >
+       
+        <com.zackehh.rssdemo.image.SmartImageView
+            android:id="@+id/imagePersijaSplash"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="75dp"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/app_name"/>
+        
+        <TextView
+            android:id="@+id/VersionNumberSplash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagePersijaSplash"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="100dp"
+            android:padding="2dp"
+            android:text="@string/versionnumber"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/OfficialSplash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/VersionNumberSplash"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:text="@string/official"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

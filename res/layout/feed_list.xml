@@ -1,0 +1,99 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:orientation="horizontal"
+    tools:context=".FullscreenActivity" >
+
+   <LinearLayout
+	    android:id="@+id/content_controls1"
+	    style="?buttonBarStyle"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="top|center_horizontal"
+	    android:background="@color/black_overlay"
+	    android:orientation="horizontal"
+	    tools:ignore="UselessParent" >
+	    
+	
+	    <ImageButton
+	        android:id="@+id/dummy_button1"
+	        style="?buttonBarButtonStyle"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:src="@drawable/grid"
+	        android:text="@string/dummy_button" />
+	    
+	    <ImageButton
+	        android:id="@+id/dummy_button2"
+	        style="?buttonBarButtonStyle"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:src="@drawable/labels"
+	        android:text="@string/dummy_button" />
+	    
+	    <ImageButton
+	        android:id="@+id/dummy_button3"
+	        style="?buttonBarButtonStyle"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:src="@drawable/list"
+	        android:text="@string/dummy_button" />
+	    
+	     <ImageButton
+	        android:id="@+id/dummy_button4"
+	        style="?buttonBarButtonStyle"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:src="@drawable/social"
+	        android:text="@string/dummy_button" />
+	</LinearLayout>
+    
+	<RelativeLayout
+	    android:id="@+id/content_controls2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/content_controls1"
+        android:orientation="vertical" 
+	    tools:ignore="UselessParent" >
+
+		<ListView
+		    android:id="@+id/listView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:background="#ff8e01" >
+		</ListView>
+	    
+	</RelativeLayout>
+	
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:background="#000000"
+	    android:orientation="vertical" >
+    	
+	    <TextView
+	        android:id="@+id/fullscreen_content2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:keepScreenOn="true"
+	        android:text="@string/dummy_content"
+	        android:textColor="#33b5e5"
+	        android:textSize="50sp"
+	        android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout >
